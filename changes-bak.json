@@ -1,0 +1,33 @@
+{
+	"users": [{
+		"action": "update",
+		"payload": [{
+				"id": "1",
+				"name": "Albin Jaye"
+			},
+			{
+				"id": "2",
+				"name": "Dave Mustaine"
+			}
+		]
+	}],
+	"playlists": [{
+		"action": "create",
+		"payload": [{
+			"id": "1",
+			"owner_id": "2",
+			"song_ids": [
+				"8",
+				"32"
+			]
+		}]
+	}],
+	"songs": [{
+		"action": "delete",
+		"payload": [{
+			"id": "1",
+			"artist": "Camila Cabello",
+			"title": "Never Be the Same"
+		}]
+	}]
+}
