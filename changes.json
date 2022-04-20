@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "playlists": [
     {
       "action": "update",
@@ -39,44 +38,3 @@
     }
   ]
 }
-=======
-	"playlists": [
-		{
-			"action": "update",
-			"payload": [
-				{
-					"id": "1",
-					"owner_id": "2",
-					"song_ids": [
-						"8",
-						"32",
-						"1"
-					]
-				}
-			]
-		},
-		{
-			"action": "create",
-			"payload": [
-				{
-					"id": "4",
-					"owner_id": "2",
-					"song_ids": [
-						"4",
-						"5",
-						"6"
-					]
-				}
-			]
-		},
-		{
-			"action": "delete",
-			"payload": [
-				{
-					"id": "3"
-				}
-			]
-		}
-	]
-}
->>>>>>> d22e89eed4ac7163d5dd3e76db20dca41abe0c87
